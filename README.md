@@ -15,3 +15,6 @@ Using the stackoverflow.com api documented at: https://api.stackexchange.com/doc
 4.     Tags as a comma delimited string
 5.     Link to profile
 6.     Link to avatar
+# Console 
+![idea64_1i3jcQrrbY](https://user-images.githubusercontent.com/112934645/221546233-73259dd6-5dd6-47ce-8c8a-872a3a26f286.png)
+
