@@ -13,7 +13,7 @@ public class StackoverflowUser {
     private String location;
     private int answerCount;
     private int questionCount;
-    private List<Tag> tags;
+    private String tags;
     private String linkToProfile;
     private String linkToAvatar;
 }

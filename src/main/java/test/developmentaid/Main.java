@@ -31,8 +31,8 @@ public class Main {
                     .build();
         }
         List<StackoverflowUser> result = new ArrayList<>();
-        for (int i = 1; i < 26 ; i++) {
-        ApiResponseDto users = client.get(URL_START + i + URL_FINISH,
+        for (int i = 1; i < 2 ; i++) {
+        ApiResponseDto users = client.get(URL_START + 4 + URL_FINISH,
                 ApiResponseDto.class);
         for (UserResponseDto item : users.getItems()) {
             if (filter.filterUsers(item)) {

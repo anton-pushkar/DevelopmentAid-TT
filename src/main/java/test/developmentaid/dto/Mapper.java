@@ -11,9 +11,13 @@ public class Mapper {
         user.setLocation(dto.getLocation());
         user.setAnswerCount(dto.getAnswerCount());
         user.setQuestionCount(dto.getQuestionCount());
-        user.setTags(tags);
         user.setLinkToProfile(dto.getLink());
         user.setLinkToAvatar(dto.getProfileImage());
+        String stringTags = "";
+        for (Tag tag : tags) {
+            stringTags += tag.getName() + ", ";
+        }
+        user.setTags(stringTags.substring(0, stringTags.length() - 2));
         return user;
     }
 }
